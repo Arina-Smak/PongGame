@@ -2,12 +2,6 @@ from tkinter import *
 import random
 import time
 
-'''
-Доработать функции под уровни
-Убирать welcome-page, когда нажали на один из уровней
-Можно создать базу данных с игроками и их рекордами под каждый из уровней
-'''
-
 class Ball:
     def __init__(self, canvas, paddle):
         self.canvas = canvas
